@@ -85,8 +85,16 @@ namespace Task_03
 
             #region 12, 13 answers
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            for (int i = 0; i < books.Length; i++)
-                Console.WriteLine($"index {i+1}: {books[i]}");
+            //for (int i = 0; i < books.Length; i++)
+            //    Console.WriteLine($"index {i+1}: {books[i]}");
+
+            int i = 0;
+            while (i < books.Length)
+            {
+                Console.WriteLine($"index {i + 1}: {books[i]}");
+                i++;
+            }
+
             #endregion
 
         }
