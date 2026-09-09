@@ -5,10 +5,20 @@
         static void Main(string[] args)
         {
             #region 1st answer
-            string title = "clean code";
-            string upperTitle = title.ToUpper();
-            Console.WriteLine(title);
-            Console.WriteLine(upperTitle); 
+            //string title = "clean code";
+            //string upperTitle = title.ToUpper();
+            //Console.WriteLine(title);
+            //Console.WriteLine(upperTitle);
+            #endregion
+
+
+            #region 2nd answer
+            string str1 = "Clean Code";
+            string str2 = "Clean Code";
+            Console.WriteLine(ReferenceEquals(str1,str2));
+
+            //We can also use this too
+            Console.WriteLine(str1 == str2);
             #endregion
         }
     }
