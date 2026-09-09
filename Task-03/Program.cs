@@ -37,12 +37,19 @@ namespace Task_03
             #endregion
 
             #region 5th, 6th, 7th answers
-            string title = "Clean Code";
+            //string title = "Clean Code";
+            //int pages = 464;
+            //Console.WriteLine("Book: " + title + "," + " " + "Pages: " + pages);
+            //Console.WriteLine($"Book: {title}, Pages: {pages}");
+            //string result = string.Format("Book: {0}, Pages: {1}", title, pages);
+            //Console.WriteLine(result);
+            #endregion
+
+            #region 8th answer
             int pages = 464;
-            Console.WriteLine("Book: " + title + "," + " " + "Pages: " + pages);
-            Console.WriteLine($"Book: {title}, Pages: {pages}");
-            string result = string.Format("Book: {0}, Pages: {1}", title, pages);
-            Console.WriteLine(result);
+            if (pages > 300)
+                Console.WriteLine("Long Book");
+            else Console.WriteLine("Short Book");
             #endregion
         }
     }
