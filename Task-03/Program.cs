@@ -46,10 +46,18 @@ namespace Task_03
             #endregion
 
             #region 8th answer
+            //int pages = 464;
+            //if (pages > 300)
+            //    Console.WriteLine("Long Book");
+            //else Console.WriteLine("Short Book");
+            #endregion\
+
+            #region 9th answer
             int pages = 464;
-            if (pages > 300)
-                Console.WriteLine("Long Book");
-            else Console.WriteLine("Short Book");
+            bool isAvailble = true;
+            if (pages > 300 && isAvailble == true)
+                Console.WriteLine("You can borrow this book");
+            else Console.WriteLine("You can't borrow this book");
             #endregion
         }
     }
