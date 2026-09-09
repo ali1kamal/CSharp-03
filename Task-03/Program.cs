@@ -41,6 +41,8 @@ namespace Task_03
             int pages = 464;
             Console.WriteLine("Book: " + title + "," + " " + "Pages: " + pages);
             Console.WriteLine($"Book: {title}, Pages: {pages}");
+            string result = string.Format("Book: {0}, Pages: {1}", title, pages);
+            Console.WriteLine(result);
             #endregion
         }
     }
