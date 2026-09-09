@@ -83,8 +83,8 @@ namespace Task_03
             //Console.WriteLine(sizeLabel);
             #endregion
 
-            #region 12, 13 answers
-            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            #region 12, 13, 15 answers
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             ////for (int i = 0; i < books.Length; i++)
             ////    Console.WriteLine($"index {i+1}: {books[i]}");
 
@@ -95,17 +95,23 @@ namespace Task_03
             //    i++;
             //}
 
+            int i = 1;
+            foreach (string item in books)
+            {
+                Console.WriteLine($"index {i}: {item}");
+                i++;
+            }
             #endregion
 
 
             #region 14 answer
-            int i = 0;
-            do 
-            {
-                Console.WriteLine("Checking book...");
-                i++;
-            }
-            while (i < 3);
+            //int i = 0;
+            //do 
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    i++;
+            //}
+            //while (i < 3);
             #endregion
         }
     }
