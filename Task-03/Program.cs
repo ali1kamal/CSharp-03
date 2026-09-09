@@ -1,4 +1,6 @@
-﻿namespace Task_03
+﻿using System.Text;
+
+namespace Task_03
 {
     public class Program
     {
@@ -13,12 +15,19 @@
 
 
             #region 2nd answer
-            string str1 = "Clean Code";
-            string str2 = "Clean Code";
-            Console.WriteLine(ReferenceEquals(str1,str2));
+            //string str1 = "Clean Code";
+            //string str2 = "Clean Code";
+            //Console.WriteLine(ReferenceEquals(str1,str2));
 
-            //We can also use this too
-            Console.WriteLine(str1 == str2);
+            ////We can also use this too
+            //Console.WriteLine(str1 == str2);
+            #endregion
+
+            #region 3rd answer
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append("Book List");
+            stringBuilder.Append("-Updated");
+            Console.WriteLine(stringBuilder);
             #endregion
         }
     }
