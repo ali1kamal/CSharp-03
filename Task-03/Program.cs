@@ -83,7 +83,7 @@ namespace Task_03
             //Console.WriteLine(sizeLabel);
             #endregion
 
-            #region 12, 13, 15, 16 answers
+            #region 12, 13, 15, 16, 17 answers
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             //for (int i = 0; i < books.Length; i++)
             //    Console.WriteLine($"index {i+1}: {books[i]}");
@@ -102,11 +102,18 @@ namespace Task_03
             //    i++;
             //}
 
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    Console.WriteLine($"index {i + 1}: {books[i]}");
+            //    if( books[i] == "Refactoring")
+            //        break;
+            //}
+
             for (int i = 0; i < books.Length; i++)
             {
+                if (books[i] == "The Pragmatic Programmer")
+                    continue;
                 Console.WriteLine($"index {i + 1}: {books[i]}");
-                if( books[i] == "Refactoring")
-                    break;
             }
             #endregion
 
