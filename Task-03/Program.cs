@@ -53,11 +53,29 @@ namespace Task_03
             #endregion\
 
             #region 9th answer
-            int pages = 464;
-            bool isAvailble = true;
-            if (pages > 300 && isAvailble == true)
-                Console.WriteLine("You can borrow this book");
-            else Console.WriteLine("You can't borrow this book");
+            //int pages = 464;
+            //bool isAvailble = true;
+            //if (pages > 300 && isAvailble == true)
+            //    Console.WriteLine("You can borrow this book");
+            //else Console.WriteLine("You can't borrow this book");
+            #endregion
+
+            #region 10th answer
+            string title = "Refactoring";
+            switch (title)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                break;
+                
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                break ;
+
+            }
             #endregion
         }
     }
