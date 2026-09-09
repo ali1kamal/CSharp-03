@@ -83,11 +83,14 @@ namespace Task_03
             //Console.WriteLine(sizeLabel);
             #endregion
 
-            #region 12, 13, 15, 16, 17 answers
+            #region 12, 13, 15, 16, 17, 18 answers
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            /*          12 answer            */
             //for (int i = 0; i < books.Length; i++)
             //    Console.WriteLine($"index {i+1}: {books[i]}");
 
+            /*          13 answer            */
             //int i = 0;
             //while (i < books.Length)
             //{
@@ -95,6 +98,7 @@ namespace Task_03
             //    i++;
             //}
 
+            /*          15 answer            */
             //int i = 1;
             //foreach (string item in books)
             //{
@@ -102,6 +106,7 @@ namespace Task_03
             //    i++;
             //}
 
+            /*          16 answer            */
             //for (int i = 0; i < books.Length; i++)
             //{
             //    Console.WriteLine($"index {i + 1}: {books[i]}");
@@ -109,11 +114,22 @@ namespace Task_03
             //        break;
             //}
 
-            for (int i = 0; i < books.Length; i++)
+            /*          17 answer            */
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "The Pragmatic Programmer")
+            //        continue;
+            //    Console.WriteLine($"index {i + 1}: {books[i]}");
+            //}
+
+            /*          18 answer            */
+            PrintFirstBook(books);
+
+            void PrintFirstBook(string[] Books)
             {
-                if (books[i] == "The Pragmatic Programmer")
-                    continue;
-                Console.WriteLine($"index {i + 1}: {books[i]}");
+                if (Books != null)
+                    Console.WriteLine(books[0]);
+                else Console.WriteLine("The array is empty");
             }
             #endregion
 
