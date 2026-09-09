@@ -78,9 +78,15 @@ namespace Task_03
             #endregion
 
             #region 11th answer
-            int pages = 464;
-            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
-            Console.WriteLine(sizeLabel);
+            //int pages = 464;
+            //string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            //Console.WriteLine(sizeLabel);
+            #endregion
+
+            #region 12, 13 answers
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i < books.Length; i++)
+                Console.WriteLine($"index {i+1}: {books[i]}");
             #endregion
 
         }
