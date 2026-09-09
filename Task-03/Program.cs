@@ -40,6 +40,7 @@ namespace Task_03
             string title = "Clean Code";
             int pages = 464;
             Console.WriteLine("Book: " + title + "," + " " + "Pages: " + pages);
+            Console.WriteLine($"Book: {title}, Pages: {pages}");
             #endregion
         }
     }
