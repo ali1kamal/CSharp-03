@@ -29,6 +29,12 @@ namespace Task_03
             stringBuilder.Append("-Updated");
             Console.WriteLine(stringBuilder);
             #endregion
+
+            #region 4th answer
+            //it uses the StringBuilder object from the peravious region
+            stringBuilder.Replace("Book List", "Library");
+            Console.WriteLine(stringBuilder);
+            #endregion
         }
     }
 }
