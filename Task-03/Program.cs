@@ -24,16 +24,22 @@ namespace Task_03
             #endregion
 
             #region 3rd answer
-            StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("Book List");
-            stringBuilder.Append("-Updated");
-            Console.WriteLine(stringBuilder);
+            //StringBuilder stringBuilder = new StringBuilder();
+            //stringBuilder.Append("Book List");
+            //stringBuilder.Append("-Updated");
+            //Console.WriteLine(stringBuilder);
             #endregion
 
             #region 4th answer
-            //it uses the StringBuilder object from the peravious region
-            stringBuilder.Replace("Book List", "Library");
-            Console.WriteLine(stringBuilder);
+            ////it uses the StringBuilder object from the peravious region
+            //stringBuilder.Replace("Book List", "Library");
+            //Console.WriteLine(stringBuilder);
+            #endregion
+
+            #region 5th, 6th, 7th answers
+            string title = "Clean Code";
+            int pages = 464;
+            Console.WriteLine("Book: " + title + "," + " " + "Pages: " + pages);
             #endregion
         }
     }
